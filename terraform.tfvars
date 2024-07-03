@@ -1,0 +1,15 @@
+region = "eu-central-1"
+cluster_name = "my-cluster"
+cluster_version = "1.25"
+subnet_ids = ["subnet-0123456789abcdef0", "subnet-0123456789abcdef1"]
+vpc_id = "vpc-0123456789abcdef0"
+key_name = "my-keypair"
+linux_desired_capacity = 2
+linux_max_capacity = 5
+linux_min_capacity = 0
+linux_instance_type = "t3.large"
+windows_desired_capacity = 1
+windows_max_capacity = 1
+windows_min_capacity = 0
+windows_instance_type = "t3.small"
+gitlab_registration_token = "your-registration-token"
